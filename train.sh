@@ -3,6 +3,7 @@ seed_split=0  # data split seed
 Mode=train  # training (train) or testing (test) mode
 Dataset=DRIVE # dataset to use [option: STARE, CHASE DB, EM and DRIVE]
 
+
 Epoch=1000  # number of training epochs
 lr=1e-3 # init learning rate
 bs=8  # batchsize
