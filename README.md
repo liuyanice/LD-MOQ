@@ -1,8 +1,8 @@
-# SemiDiff: A Quaternion Neural Network for Semi-Supervised Vessel Segmentation with Latent Diffusion Model
+# Multi-View Orientational Quaternion Network with Latent Diffusion Model for Semi-Supervised Vessel Segmentation
 
 
 
-We propose SemiDiff, a novel semi-supervised learning (SSL) framework based on the latent diffusion model and quaternion neural network. This framework consists of two stages. In the first stage, the latent diffusion model is utilized to generate unlabeled data, reducing the labelling burden. In the second stage, we address two key challenges in semi-supervised vessel segmentation. Firstly, we integrate a differentiable and reversible geometric transformation to augment the data, effectively leveraging the capabilities of consistency-based SSL. Secondly, SemiDiff adopts a novel quaternion convolutional network that efficiently captures vessel curve structure features in complex background, enabling it to self-attend to tiny vessels in both horizontal and vertical space.
+We propose LD-MOQ, a multi-view orientational quaternion network with latent diffusion model for semi-supervised vessel segmentation. LD-MOQ involves two stages. In the first stage, a latent diffusion model is used to expand the pool of unlabeled data, which reduces the workload of data annotation and addresses the privacy issue related to vessel data collection. In the second stage, we innovatively propose a multi-view orientational quaternion network to capture global feature embeddings in the horizontal and vertical views of multi-dimensional quaternion space, and enhance perception of vessels in the geometric orientation. Moreover, we introduce an end-to-end reversible geometric transformation to enhance the training data, effectively utilizing the capabilities of consistency-based SSL, resulting in improved segmentation accuracy. The experiments of across domain vessel datasets demonstrate the effectiveness of LD-MOQ in bridging probability distribution knowledge to the segmentation network and enhancing the semantic representation of vessel images.
 
 ![SemiDiff Framework](./Image/Framework.png)
 
