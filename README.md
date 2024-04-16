@@ -6,7 +6,7 @@ We propose LD-MOQ, a multi-view orientational quaternion network with latent dif
 
 ![SemiDiff Framework](./Image/Framework.png)
 
-This demo code reproduces the results for semi-supervised segmentation on STARE, CHASE DB, EM and DRIVE datasets.
+This demo code reproduces the results for semi-supervised segmentation on STARE, CHASE DB, EM, DRIVE, DCA1, and XCAD datasets.
 
 Please follow the following pipeline to reproduce the results.
 
